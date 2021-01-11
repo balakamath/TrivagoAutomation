@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65842" started-at="2021-01-11T09:10:25Z" finished-at="2021-01-11T09:11:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65842" started-at="2021-01-11T09:10:25Z" finished-at="2021-01-11T09:11:31Z">
+      <class name="com.trivago.automationframework.trivago.LoginTest">
+        <test-method status="PASS" signature="baseBeforeClass()[pri:0, instance:com.trivago.automationframework.trivago.LoginTest@527740a2]" name="baseBeforeClass" is-config="true" duration-ms="5103" started-at="2021-01-11T09:10:25Z" finished-at="2021-01-11T09:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseBeforeClass -->
+        <test-method status="PASS" signature="requirementTwo()[pri:0, instance:com.trivago.automationframework.trivago.LoginTest@527740a2]" name="requirementTwo" duration-ms="60536" started-at="2021-01-11T09:10:30Z" finished-at="2021-01-11T09:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requirementTwo -->
+        <test-method status="PASS" signature="methodAfterClass()[pri:0, instance:com.trivago.automationframework.trivago.LoginTest@527740a2]" name="methodAfterClass" is-config="true" duration-ms="186" started-at="2021-01-11T09:11:30Z" finished-at="2021-01-11T09:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAfterClass -->
+      </class> <!-- com.trivago.automationframework.trivago.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
