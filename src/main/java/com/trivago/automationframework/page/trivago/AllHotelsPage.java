@@ -92,7 +92,7 @@ public class AllHotelsPage extends AbstractWebdriverPage{
 	 * 
 	 */
 	public void filtersBasedOnRating() {
-		LOG.debug("Clicks on the View Deal corresponding to hotelName");
+		LOG.debug("Filters based on 835 Excellent rating");
 		this.performMouseHover(guestRatingButton);
 		UtilityFactory.getJavaUtils().sleep(5000);
 		this.clickElement(excellentRating);
