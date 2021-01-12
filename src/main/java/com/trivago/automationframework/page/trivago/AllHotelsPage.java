@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.trivago.automationframework.common.AbstractWebdriverPage;
+import com.trivago.automationframework.factory.UtilityFactory;
 import com.trivago.automationframework.interfaces.DriverInterface;
 
 /**
@@ -22,6 +23,12 @@ public class AllHotelsPage extends AbstractWebdriverPage{
 	
 	@FindBy(xpath = "//*[@class='accommodation-list__button--534fc hoverState']")
 	private static List<WebElement> viewDealButtons;
+	
+	@FindBy(xpath = "//*[@class='filter-item filter-item--select js-toolbar-hover-button']/strong[text()='Guest rating']")
+	private static WebElement guestRatingButton;
+	
+	@FindBy(xpath = "//*[text()='Excellent']")
+	private static WebElement excellentRating;
 	
 	private final static Logger LOG = Logger.getLogger(AllHotelsPage.class);
 
@@ -78,5 +85,16 @@ public class AllHotelsPage extends AbstractWebdriverPage{
 			System.out.println("Encountered Null pointer exception");
 			e.printStackTrace();
 		}
+	}
+	
+	/**
+	 * Clicks on 8.5 Excellent rating
+	 * 
+	 */
+	public void filtersBasedOnRating() {
+		LOG.debug("Clicks on the View Deal corresponding to hotelName");
+		this.performMouseHover(guestRatingButton);
+		UtilityFactory.getJavaUtils().sleep(5000);
+		this.clickElement(excellentRating);
 	}
 }

@@ -1,17 +1,8 @@
-2021-01-11 14:40:25 INFO  BaseTest:40 - Launching the Selenium driver
-2021-01-11 14:40:27 INFO  BaseTest:46 - Opening Trivago Website
-2021-01-11 14:40:30 INFO  LoginTest:79 - Search Goa Region - India in search field
-2021-01-11 14:40:31 INFO  LoginTest:82 - Select Date range
-2021-01-11 14:40:32 INFO  LoginTest:85 - Select 1 adults
-2021-01-11 14:40:32 INFO  LoginTest:88 - Click Search button
-2021-01-11 14:40:33 INFO  LoginTest:91 - Validate Whether Hotels page
-2021-01-11 14:40:43 INFO  LoginTest:97 - Verify Whether Azaya Beach Resort Goa is listed
-2021-01-11 14:40:43 INFO  LoginTest:100 - Click View deal for Azaya Beach Resort Goa
-2021-01-11 14:40:48 INFO  LoginTest:105 - Switch Control to new tab
-2021-01-11 14:40:48 INFO  LoginTest:109 - Search if Azaya Beach Resort Goa is present
-2021-01-11 14:40:49 INFO  LoginTest:112 - Click See availability for Azaya Beach Resort Goa
-2021-01-11 14:41:00 INFO  LoginTest:117 - Check correct hotel selected Azaya Beach Resort Goa
-2021-01-11 14:41:08 INFO  LoginTest:122 - Selects number of Villas
-2021-01-11 14:41:14 INFO  LoginTest:127 - Enter Details and click reserve
-2021-01-11 14:41:24 INFO  LoginTest:132 - Verify whether in final details page
-2021-01-11 14:41:30 INFO  LoginTest:135 - Closes current tab and moves back to first tab
+2021-01-12 18:31:06 INFO  BaseTest:40 - Launching the Selenium driver
+2021-01-12 18:31:08 INFO  BaseTest:46 - Opening Trivago Website
+2021-01-12 18:31:12 INFO  LoginTest:79 - Search Goa Region - India in search field
+2021-01-12 18:31:13 INFO  LoginTest:82 - Select Date range
+2021-01-12 18:31:14 INFO  LoginTest:85 - Select 1 adults
+2021-01-12 18:31:14 INFO  LoginTest:88 - Click Search button
+2021-01-12 18:31:14 INFO  LoginTest:91 - Validate Whether Hotels page
+2021-01-12 18:31:24 INFO  LoginTest:97 - Verify Whether Azaya Beach Resort Goa is listed

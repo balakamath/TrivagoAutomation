@@ -95,6 +95,8 @@ public class LoginTest extends BaseTest {
 		UtilityFactory.getJavaUtils().sleep(5000);
 		
 		LOG.info("Verify Whether " + HotelNames.AZAYA_BEACH_RESORT_GOA + " is listed");
+		trivagoPageFactory.getAllHotelsPage().filtersBasedOnRating();
+		UtilityFactory.getJavaUtils().sleep(5000);
 		assertTrue(trivagoPageFactory.getAllHotelsPage().verifyHotelNameExists(HotelNames.AZAYA_BEACH_RESORT_GOA), HotelNames.AZAYA_BEACH_RESORT_GOA + " Not Found");
 		
 		LOG.info("Click View deal for " + HotelNames.AZAYA_BEACH_RESORT_GOA);
